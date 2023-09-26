@@ -206,7 +206,7 @@ const Header = ({ activeHeading }) => {
               <div
                 className={`${styles.zoomOnHoverStyle} relative cursor-pointer mr-[15px]`}
               >
-                {isAuthenticated ? (
+                {isAuthenticated === true ? (
                   <Link to="/profile">
                     <img
                       src={`${user?.avatar?.url}`}

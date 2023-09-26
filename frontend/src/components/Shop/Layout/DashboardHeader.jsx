@@ -77,7 +77,7 @@ const DashboardHeader = () => {
               title="Messages"
             />
           </Link>
-          <Link to={`/shop/${seller._id}`}>
+          <Link to={`/shop/${seller?._id}`}>
             <img
               src={`${seller.avatar?.url}`}
               alt=""
