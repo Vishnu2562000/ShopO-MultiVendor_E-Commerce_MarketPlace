@@ -48,7 +48,7 @@ const Header = ({ activeHeading }) => {
   };
 
   const isAdmin = (isAuthenticated, user) => {
-    return isAuthenticated && user.role === "Admin";
+    return isAuthenticated && user && user?.role === "Admin";
   };
 
   const toggleDropDown = () => setDropDown(!dropDown);

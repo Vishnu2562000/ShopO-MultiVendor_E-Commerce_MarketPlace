@@ -40,7 +40,7 @@ router.post(
 
       const activationToken = createActivationToken(seller);
 
-      const activationUrl = `http://localhost:3000/seller/activation/${activationToken}`;
+      const activationUrl = `https://shop-o-multivendor-marketplace.vercel.app/seller/activation/${activationToken}`;
       // const activationUrl = `http://localhost:3000/seller/activation/${activationToken}`;
 
       try {
