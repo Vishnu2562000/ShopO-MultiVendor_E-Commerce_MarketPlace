@@ -172,7 +172,7 @@ const ShopSettings = () => {
             <input
               type="submit"
               value="Update Shop"
-              className={`${styles.input} !w-[95%] mb-4 800px:mb-0`}
+              className={`${styles.input} ${styles.zoomOnClickStyle} !w-[95%] mb-4 800px:mb-0`}
               required
               readOnly
             />
